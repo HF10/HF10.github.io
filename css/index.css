@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    height: 100%;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
