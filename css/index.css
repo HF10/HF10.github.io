@@ -1,19 +1,15 @@
-*{
-    padding: 0px;
-    margin: 0px;
+
+body{
+    padding-top: 35px;
 }
 
-html,body{
-    height: 100%;
+.container-fluid{
+    padding:0px 0px!important;
+}
+.navbar-nav{
+    font-size: 17.5px;
 }
 
-.wrapper{
-    width: 500px;
-    margin: 0 auto;
-
+.navbar-nav li{
+    padding: 0 38px;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-

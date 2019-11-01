@@ -1,23 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>首页</title>
-    <link rel="stylesheet" href="../HF10.github.io/css/index.css">
+    <meta name="keyword" content="小张的博客,个人博客,blog,前端博客,bootstrap响应式博客">
+    <meta name="description" content="小张的bootstrap响应式博客,一个前端小白的个人博客首页">
+    <title>小张博客首页</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="./images/ICON/Z_128px_1168344_easyicon.net.ico">
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="top">
-            <ul class="nav">
-                <li><a href="https://www.baidu.com">百度首页</a></li>
-                <li><a href="https://youku.com">优酷首页</a></li>
-                <li><a href="https://www.bilibili.com">哔哩哔哩</a></li>
-                <li><a href="https://www.w3school.com.cn/index.html">W3cSchool</a></li>
-                <li><a href="https://www.jiumodiary.com/">鸠摩图书搜索</a></li>
-            </ul>
+    <!-- 导航栏部分 -->
+    <header>
+        <div class="container-fluid">
+            <nav class="nav navbar navbar-default navbar-fixed-top">
+                <!-- brand -->
+                <div class="navbar-header">
+                    <a href="./index.html" class="navbar-brand">
+                        <img src="./images/ICON/Z_128px_1168344_easyicon.net.ico" alt="brand" style="max-height: 100%;">
+                    </a>
+                </div>
+                <!-- navbar-nav -->
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">博客首页</a></li>
+                    <li><a href="#">学习笔记</a></li>
+                    <li><a href="#">心得体会</a></li>
+                    <li><a href="#">足球分享</a></li>
+                    <li><a href="#">我的相册</a></li>
+                    <!-- 联系方式 -->
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">联系方式
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#"><abbr title="123456">微信</abbr></a></li>
+                            <li><a href="#"><abbr title="12345678">微博</abbr></a></li>
+                            <li><a href="#"><abbr title="28456">QQ</abbr></a></li>
+                            <li><a href="#"><abbr title="1546.@qq.com">E-mail</abbr></a></li>
+                            <li><a href="#"><abbr title="613251">电话</abbr></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- 搜索表单 -->
+                <form action="#" class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" placeholder="搜索本站" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary">搜索</button>
+                </form>
+                <p class="navbar-text">Life is funny!</p>
+            </nav>
         </div>
-    </div>
+
+    </header>
+    <!-- body部分 -->
+    <section>
+        <div class="container">
+            <!-- 轮播图 -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 style="height: 200px;background-color: pink;" class="text-center">轮播图</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- 学习心得 -->
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">前端学习</div>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation" class="active"><a href="#">html</a></li>
+                            <li role="presentation"><a href="#">css</a></li>
+                            <li role="presentation"><a href="#">javascript</a></li>
+                            <li role="presentation"><a href="#">JQuery</a></li>
+                            <li role="presentation"><a href="#">bootstrap</a></li>
+                            <li role="presentation"><a href="#">html5</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 学习文章 -->
+                <div class="col-md-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            学习内容
+                        </div>
+                        <ul class="nav nav-pill nav-stacked">
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                            <li><a href="#">888</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 文章推荐 -->
+                <div class="col-md-3">
+                    <div class="panel panel-warning">
+                        <div class="panel-heading">文章推荐</div>
+                        <ul class="nav nav-pill nav-stacked">
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                            <li><a href="#">文章推送</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 页脚 -->
+    <footer>
+
+    </footer>
+    <script src="./JQuery/jquery-3.4.1.min.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
